@@ -31,8 +31,7 @@
 	"custom/separator#line",
 	"mpris",
 	"group/notify",
-	"tray", 
-	"wlr/taskbar"],
+	"tray"],
 
 "modules-center": ["hyprland/window"], 
 	

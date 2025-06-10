@@ -27,7 +27,6 @@
 "modules-left": [
 	"clock#5", 
 	"mpris", 
-	"tray", 
 	"group/notify"
 	],
   
@@ -36,6 +35,7 @@
 "modules-right": [
 	"pulseaudio#1",
 	"backlight#2", 
-	"battery"],
+	"battery",
+	"tray"]
    
 }
