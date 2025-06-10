@@ -9,19 +9,17 @@ This is my current dots on Debian trixie/sid.
 - Terminal: Kitty
 - Top bar: Waybar
 - Bottom bar: nwg-panel
-- Menu, clipboard manager,etc: rofi-wayland
+- Menu, clipboard manager, etc: rofi-wayland
 - Desktop peeker: ags
 - System monitor: btop
 - Fetcher: fastfetch
 - Notification manager: swaync
-- Other softwares: cava, yazi, ncspot, swww, fcitx5, nm-applet, wl-clipboard, wallust, thunar, ... (tba)
+- Other softwares: cava, yazi, ncspot, swww, fcitx5, nm-applet, wl-clipboard, wallust, thunar, pulseaudio, ... (tba)
 
 # Scripts
 Scripts are at /hypr/scripts/. 
 
 ClipManager could be replaced by anything. I'm currently using nwg-clipman (for my Sway setup).
-
-The two NixOS files could be deleted if you're using any other OS.
 
 KeyHints could be replaced by [xwkh](https://github.com/imchocomint/xwkh).
 
