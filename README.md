@@ -14,7 +14,10 @@ This is my current dots on Debian trixie/sid.
 - System monitor: btop
 - Fetcher: fastfetch
 - Notification manager: swaync
-- Other softwares: cava, yazi, ncspot, swww, fcitx5, nm-applet, wl-clipboard, wallust, thunar, pulseaudio, ... (tba)
+- Other softwares: cava, yazi, ncspot, swww, fcitx5, nm-applet, wl-clipboard, wallust, thunar, pulseaudio, cliphist, ... (tba)
+
+# Notes
+Readme are on rofi and hypr folder for better clarity since you won't understand a thing like I did.
 
 # Scripts
 Scripts are at /hypr/scripts/. 
