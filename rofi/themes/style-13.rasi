@@ -1,4 +1,5 @@
-
+/* credits to JaKoolIt*/
+/* heavily modified by imchocomint */
 configuration {
     modi:                       "drun,run,filebrowser";
     font:                       "Fira Code SemiBold 12";
