@@ -5,7 +5,7 @@ This is my current dots on Debian trixie/sid.
 
 # Softwares
 - OS: Debian trixie (13)/sid
-- WM: Hyprland 0.41 (older; via repository; build failed)
+- WM: Hyprland (see my other project, [Hyprbian](https://github.com/imchocomint/Hyprbian))
 - Terminal: Kitty
 - Top bar: Waybar
 - Bottom bar: nwg-panel
