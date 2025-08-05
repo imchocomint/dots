@@ -42,7 +42,7 @@ sleep 0.5
 swaync > /dev/null 2>&1 &
 # reload swaync
 swaync-client --reload-config
-
+hyprctl reload
 # Relaunching rainbow borders if the script exists
 sleep 1
 if file_exists "${UserScripts}/RainbowBorders.sh"; then
