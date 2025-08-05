@@ -1,20 +1,20 @@
 # My dotfiles
-Hyprland dotfiles. Forked from [JaKoolIt](https://github.com/JaKooLit/Hyprland-Dots)
+Hyprland dotfiles. Spun off [JaKoolIt](https://github.com/JaKooLit/Hyprland-Dots)
 
-This is my current dots on Debian trixie/sid.
+This is my current dots on Debian sid.
 
 ## Softwares
-- OS: Debian trixie (13)/sid
+- OS: Debian sid
 - WM: Hyprland (see my other project, [Hyprbian](https://github.com/imchocomint/Hyprbian))
 - Terminal: Kitty
 - Top bar: Waybar
 - Bottom bar: nwg-panel
 - Menu, clipboard manager, etc: rofi-wayland
-- Desktop peeker: ags
+- Widgets: ags
 - System monitor: btop
 - Fetcher: fastfetch
 - Notification manager: swaync
-- Other softwares: cava, yazi, ncspot, swww, fcitx5, nm-applet, wl-clipboard, wallust, thunar, pulseaudio, cliphist, ... (tba)
+- Other softwares: cava, yazi, swww, fcitx5, nm-applet, wl-clipboard, wallust, thunar, pulseaudio, cliphist, nwg-bar ... (tba)
 
 ## Notes
 Readme are on rofi and hypr folder for better clarity since you won't understand a thing like I did.
