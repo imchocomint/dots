@@ -26,5 +26,10 @@ ClipManager could be replaced by anything. I'm currently using nwg-clipman (for 
 
 KeyHints could be replaced by [xwkh](https://github.com/imchocomint/xwkh).
 
+## License
+These dotfiles here are licensed under CC0 (Creative Commons Zero), which puts them to public domain status. Free to do whatever you want with them.
+
+However, Hyprland scripts are GPL-licensed because they're not modified in any way. When you include them unmodified on your projects you should put them under GPL.
+
 #
 My other (sway, i3wm, KDE Plasma) config files are at [a differrent repository](https://github.com/imchocomint/collection). Just click on branches to see.
