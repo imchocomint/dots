@@ -1,3 +1,7 @@
+All the files in this directory are licensed under GNU GPL v3, in contrast to the whole repository which is under public domain.
+
+Full text of license below:
+
 GNU General Public License
 ==========================
 
