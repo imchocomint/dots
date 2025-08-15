@@ -1,0 +1,27 @@
+{
+    "git.openRepositoryInParentFolders": "never",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
+    "editor.fontSize": 15,
+    "explorer.confirmDelete": false,
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+        "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+    "apc.theme": [],
+    "apc.electron": {
+        "opacity": 0.6,
+        "transparent": true,
+        "backgroundColor": "#00000000",
+        "vibrancy": "ultra-dark"
+    },
+    "animations.Enabled": true,
+    "animations.CursorAnimation": true,
+    "animations.Command-Palette": "None",
+    "animations.CursorAnimationOptions": {
+        "TrailLength": 10
+    },
+    "animations.Tabs": "Slide",
+    "animations.Active": "Indent",
+    "python.defaultInterpreterPath": "/bin/python",
+    "workbench.colorTheme": "Default Light Modern",
+}

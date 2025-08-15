@@ -1,0 +1,7 @@
+@import 'colors.css';
+.xfce4-panel {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #EAC39C; /* Example color, change as desired */
+    border-radius: 10px; /* Example radius, change as desired */
+}

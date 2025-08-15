@@ -13,7 +13,8 @@ button {
 }
 
 #task-box-focused {
-    background-color: rgba (255, 255, 255, 0.12);
+    /* background-color: rgba (255, 255, 255, 0.12); */
+    background-color: rgba (0, 0, 0, 0.12);
     padding-left: 4px;
     padding-right: 4px
 }
@@ -23,7 +24,7 @@ button {
 
 /* Sample button in sample config w/ no background nor border */
 #button-custom {
-    background: rgba (0, 0, 0, 0.0);
+    background: rgba (0, 0, 0, 0.3);
     border: 0
 }
 
@@ -36,9 +37,9 @@ button {
 
 /* Bottom panel in sample config uses this name */
 #panel-bottom {
-    background: rgba (0, 0, 0, 0.6);
+    background-color: rgba (255, 255, 255, 0.1);
     color: #eeeeee;
-    opacity: 0.6
+    opacity: 1.0
 }
 
 /* Controls window in sample config uses this name */

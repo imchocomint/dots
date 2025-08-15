@@ -6,10 +6,10 @@
     "position": "bottom",
     "controls": "off",
     "width": "auto",
-    "height": 25,
+    "height": 15,
     "margin-top": 0,
     "margin-bottom": 0,
-    "padding-horizontal": 6,
+    "padding-horizontal": 0,
     "padding-vertical": 0,
     "spacing": 0,
     "items-padding": 0,
@@ -20,7 +20,9 @@
       "hyprland-taskbar"
     ],
     "modules-center": [],
-    "modules-right": [],
+    "modules-right": [
+      "playerctl"
+    ],
     "controls-settings": {
       "components": [
         "brightness",
@@ -99,13 +101,16 @@
       "interval": 1
     },
     "playerctl": {
-      "buttons-position": "left",
-      "icon-size": 16,
-      "chars": 30,
-      "scroll": false,
+      "buttons-position": "right",
+      "icon-size": 15,
+      "chars": 35,
+      "scroll": true,
       "button-css-name": "",
       "label-css-name": "",
-      "interval": 1
+      "interval": 1,
+      "show-cover": false,
+      "cover-size": 24,
+      "angle": 0.0
     },
     "executor-weather": {
       "script": "curl https://wttr.in/?format=1 -s",
@@ -120,7 +125,7 @@
       "on-scroll-up": "",
       "on-scroll-down": ""
     },
-    "monitor": "",
+    "monitor": "BOE 0x09E0",
     "run-if-output-exist": [],
     "run-if-output-absent": [],
     "menu-start": "off",
@@ -145,15 +150,41 @@
       "show-app-name-special": false,
       "show-layout": false,
       "all-outputs": true,
-      "mark-xwayland": true,
+      "mark-xwayland": false,
       "angle": 0.0,
-      "image-size": 16,
+      "image-size": 20,
       "task-padding": 0
     },
-    "hyprland-workspaces": {},
+    "hyprland-workspaces": {
+      "num-ws": 10,
+      "show-icon": true,
+      "show-inactive-workspaces": true,
+      "show-workspaces-from-all-outputs": true,
+      "image-size": 16,
+      "show-workspaces": true,
+      "show-name": true,
+      "name-length": 40,
+      "show-empty": true,
+      "mark-content": true,
+      "show-names": true,
+      "mark-floating": true,
+      "mark-xwayland": false,
+      "angle": 0.0
+    },
     "hyprland-submap": {},
     "keyboard-layout": {},
-    "niri-taskbar": {},
+    "niri-taskbar": {
+      "name-max-len": 24,
+      "icon-size": 16,
+      "workspaces-spacing": 0,
+      "client-padding": 0,
+      "workspace-label": "idx",
+      "show-app-icon": true,
+      "show-app-name": true,
+      "show-layout": true,
+      "all-outputs": false,
+      "angle": 0.0
+    },
     "tray": {},
     "random-wallpaper": {},
     "swaync": {
