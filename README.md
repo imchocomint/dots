@@ -1,7 +1,7 @@
 # My dotfiles
 Hyprland dotfiles. Spun off [JaKoolIt](https://github.com/JaKooLit/Hyprland-Dots)
 
-This is my current dots on Debian sid.
+This is my ~~current~~ barely used dots on Debian sid.
 
 ## Softwares
 - OS: Debian sid
@@ -10,14 +10,14 @@ This is my current dots on Debian sid.
 - Top bar: Waybar
 - Bottom bar: nwg-panel
 - Menu, clipboard manager, etc: rofi-wayland
-- Widgets: ags
+- ~~Widgets: ags~~ I quit
 - System monitor: btop
 - Fetcher: fastfetch
 - Notification manager: swaync
 - Other softwares: cava, yazi, swww, fcitx5, nm-applet, wl-clipboard, wallust, thunar, pulseaudio, cliphist, nwg-bar ... (tba)
 
 ## Notes
-Readme are on rofi and hypr folder for better clarity since you won't understand a thing like I did.
+Readme are on rofi folder for better clarity since you won't understand a thing like I did.
 
 ## Scripts
 Scripts are at /hypr/scripts/. 
