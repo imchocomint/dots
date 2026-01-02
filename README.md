@@ -13,11 +13,9 @@ Works on Hyprland 0.53+, as well as lower version if you tweak the config a bit
 <<<<<<< Updated upstream
 - Menu, clipboard manager, etc: rofi
 - Widgets: ags
-=======
 - Bottom bar: nwg-panel
 - Menu, clipboard manager, etc: rofi-wayland
 - Widgets: ags (unused)
->>>>>>> Stashed changes
 - System monitor: btop
 - Fetcher: fastfetch
 - Notification manager: swaync
