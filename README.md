@@ -10,15 +10,21 @@ Works on Hyprland 0.53+, as well as lower version if you tweak the config a bit
 - WM: Hyprland (see my other project, [Hyprbian](https://github.com/imchocomint/hyprplus))
 - Terminal: Kitty
 - Top bar: Waybar
+<<<<<<< Updated upstream
 - Menu, clipboard manager, etc: rofi
 - Widgets: ags
+=======
+- Bottom bar: nwg-panel
+- Menu, clipboard manager, etc: rofi-wayland
+- Widgets: ags (unused)
+>>>>>>> Stashed changes
 - System monitor: btop
 - Fetcher: fastfetch
 - Notification manager: swaync
-- Other softwares: cava, yazi, swww, fcitx5, nm-applet, wl-clipboard, wallust, thunar, pulseaudio, cliphist, nwg-bar ... (tba)
+- Other softwares: cava, yazi, awww, fcitx5, nm-applet, wl-clipboard, wallust, thunar, pulseaudio, cliphist, nwg-bar ... (tba)
 
 ## Notes
-Readme are on rofi and hypr folder for better clarity since you won't understand a thing like I did.
+Readme are on rofi folder for better clarity since you won't understand a thing like I did.
 
 ## Scripts
 Scripts are at /hypr/scripts/. 
