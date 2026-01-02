@@ -3,13 +3,14 @@ Hyprland dotfiles. Spun off [JaKoolIt](https://github.com/JaKooLit/Hyprland-Dots
 
 This is my current dots on Debian sid.
 
+Works on Hyprland 0.53+, as well as lower version if you tweak the config a bit
+
 ## Softwares
 - OS: Debian sid
-- WM: Hyprland (see my other project, [Hyprbian](https://github.com/imchocomint/Hyprbian))
+- WM: Hyprland (see my other project, [Hyprbian](https://github.com/imchocomint/hyprplus))
 - Terminal: Kitty
 - Top bar: Waybar
-- Bottom bar: nwg-panel
-- Menu, clipboard manager, etc: rofi-wayland
+- Menu, clipboard manager, etc: rofi
 - Widgets: ags
 - System monitor: btop
 - Fetcher: fastfetch
