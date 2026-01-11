@@ -1,0 +1,62 @@
+/* General Bar */
+* {
+    /* This is the most important part for thickness */
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono NFP", "Segoe UI", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    min-height: 0; /* Forces the bar to respect your height setting */
+    margin: 0;
+    padding: 0;
+}
+window#waybar {
+    background-color: #1e1e2e; /* --base from your config */
+    border-radius: 8px;
+    color: #a6adc8; /* --subtext0 */
+}
+
+/* Individual Module Spacing */
+#workspaces, #window, #clock, #mpris, #network, #battery, #pulseaudio, #custom-power, #custom-updater {
+    padding: 0 6px;
+    margin: 4px 2px;
+}
+
+/* THE UPDATE PILL (The blue bubble in your image) */
+#custom-updater {
+    background-color: #89b4fa; /* --blue */
+    color: #1e1e2e; /* --base */
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 6px 4px;
+}
+
+/* Workspaces (The dots and pill) */
+#workspaces button {
+    background-color: #45475a; /* --surface1 */
+    color: transparent;
+    border-radius: 4px;
+    margin: 0 3px;
+    min-width: 10px;
+    min-height: 10px;
+    transition: all 0.3s ease;
+}
+
+#workspaces button.active {
+    background-color: #bac2de; /* --subtext1 */
+    min-width: 28px;
+}
+
+/* Media Controls Style */
+#mpris {
+    color: #b4befe; /* --lavender */
+}
+
+/* Weather and Icons */
+#custom-weather {
+    color: #f9e2af; /* --yellow */
+}
+
+#network { color: #74c7ec; } /* --sapphire */
+#pulseaudio { color: #89b4fa; } /* --blue */
+#custom-power { color: #eba0ac; } /* --maroon */

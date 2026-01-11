@@ -1,0 +1,28 @@
+{
+    "include": [
+    "$HOME/.config/waybar/Modules",
+    "$HOME/.config/waybar/ModulesWorkspaces",
+    "$HOME/.config/waybar/ModulesCustom",
+    "$HOME/.config/waybar/ModulesGroups",
+    "$HOME/.config/waybar/UserModules"
+    ],
+    "layer": "top",
+    "position": "top",
+    "height": 10,
+    "spacing": 5,
+    "fixed-center": true,
+    "ipc": true,
+    "margin-left": 7,
+    "margin-right": 7,
+    "margin-top": 3,
+    "modules-left": ["hyprland/workspaces#indicator", "hyprland/window", "group/notify"],
+    "modules-center": ["clock#5"],
+    "modules-right": [
+        "mpris", 
+        "pulseaudio#1",
+	    "backlight#2", 
+	    "battery",
+        "tray"
+    ]
+
+}

@@ -22,6 +22,16 @@
 		"default": "",
 	},
 },
+"hyprland/workspaces#indicator": {
+        "format": "{icon}",
+        "on-click": "activate",
+		"on-scroll-up": "hyprctl dispatch workspace e+1",
+		"on-scroll-down": "hyprctl dispatch workspace e-1",
+        "format-icons": {
+			"active": "",
+			"default": "",
+		}
+    },
 // ROMAN Numerals style
 "hyprland/workspaces#roman": {
 	"active-only": false,
