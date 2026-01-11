@@ -75,6 +75,8 @@ window {
     cursor:                      "default";
     /* Backgroud Colors */
     background-color:            transparent;
+    border-radius:               20px; 
+    border:                      0px;
 }
 
 /*****----- Main Box -----*****/
@@ -88,6 +90,7 @@ mainbox {
     border-color:                transparent;
     background-color:            inherit;
     children:                    [ "inputbar", "message", "custombox" ];
+    border-radius:               20px;
 }
 
 /*****----- A Custom Box -----*****/
@@ -97,6 +100,7 @@ custombox {
     text-color:                  @foreground-color;
     orientation:                 horizontal;
     children:                    [ "mode-switcher", "listview" ];
+    border-radius:               10px;
 }
 
 /*****----- Inputbar -----*****/
@@ -110,7 +114,7 @@ inputbar {
     border-color:                transparent;
     background-color:            @background-color;
     text-color:                  @foreground;
-    children:                    [ "textbox-prompt-colon", "entry" ];
+    children:                    [ "entry" ];
 }
 
 prompt {
@@ -181,12 +185,14 @@ listview {
     background-color:            transparent;
     text-color:                  @foreground-color;
     cursor:                      "default";
+    border-radius:               10px;
 }
 scrollbar {
     handle-width:                2px ;
     handle-color:                @handle-color;
     border-radius:               10px;
     background-color:            @alternate-background;
+    border-radius:               10px;
 }
 
 /*****----- Elements -----*****/
