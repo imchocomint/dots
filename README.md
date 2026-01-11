@@ -10,12 +10,7 @@ Works on Hyprland 0.53+, as well as lower version if you tweak the config a bit
 - WM: Hyprland (see my other project, [Hyprbian](https://github.com/imchocomint/hyprplus))
 - Terminal: Kitty
 - Top bar: Waybar
-<<<<<<< Updated upstream
 - Menu, clipboard manager, etc: rofi
-- Widgets: ags
-- Bottom bar: nwg-panel
-- Menu, clipboard manager, etc: rofi-wayland
-- Widgets: ags (unused)
 - System monitor: btop
 - Fetcher: fastfetch
 - Notification manager: swaync
@@ -27,14 +22,10 @@ Readme are on rofi folder for better clarity since you won't understand a thing 
 ## Scripts
 Scripts are at /hypr/scripts/. 
 
-ClipManager could be replaced by anything. I'm currently using nwg-clipman (for my Sway setup).
-
-KeyHints could be replaced by [xwkh](https://github.com/imchocomint/xwkh).
-
 ## License
 These dotfiles here are licensed under CC0 (Creative Commons Zero), which puts them to public domain status. Free to do whatever you want with them.
 
 However, Hyprland scripts are GPL-licensed because they're not modified in any way. When you include them unmodified on your projects you should put them under GPL.
 
-#
+# Others
 My other (sway, i3wm, KDE Plasma) config files are at [a differrent repository](https://github.com/imchocomint/collection). Just click on branches to see.
