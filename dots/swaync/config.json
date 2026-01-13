@@ -1,6 +1,6 @@
 {
   "$schema": "/etc/xdg/swaync/configSchema.json",
-  "positionX": "center",
+  "positionX": "left",
   "positionY": "top",
   "layer": "overlay",
   "control-center-layer": "top",
@@ -12,7 +12,7 @@
   "control-center-margin-left": 0,
   "notification-2fa-action": true,
   "notification-inline-replies": false,
-  "notification-icon-size": 24,
+  "notification-icon-size": 16,
   "notification-body-image-height": 100,
   "notification-body-image-width": 100,
   "notification-window-width": 300,
@@ -20,8 +20,8 @@
   "timeout-low": 3,
   "timeout-critical": 0,
   "fit-to-screen": false,
-  "control-center-width": 450,
-  "control-center-height": 720,
+  "control-center-width": 300,
+  "control-center-height": 450,
   "keyboard-shortcuts": true,
   "image-visibility": "when available",
   "transition-time": 200,
@@ -33,7 +33,6 @@
       "buttons-grid",
       "mpris",
       "volume", 
-      "backlight",
       "title",
       "notifications"
   ],
@@ -42,9 +41,6 @@
           "text": "Notifications",
           "clear-all-button": true,
           "button-text": "Clear"
-      },
-      "dnd": {
-          "text": "Do Not Disturb"
       },
       "label": {
           "max-lines": 1,
@@ -56,9 +52,6 @@
       },
       "volume": {
           "label": "󰕾"
-      },
-      "backlight": {
-          "label": "󰃟"
       },
       "buttons-grid": {
           "actions": [
@@ -81,10 +74,6 @@
               {
                   "label": "󰝟",
                   "command": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
-              },
-              {
-                  "label": "󰂯",
-                  "command": "blueman-manager"
               }
           ]
       }
