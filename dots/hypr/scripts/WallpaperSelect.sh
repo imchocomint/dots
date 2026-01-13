@@ -134,7 +134,7 @@ set_sddm_wallpaper() {
 
 modify_startup_config() {
   local selected_file="$1"
-  local startup_config="$HOME/.config/hypr/UserConfigs/Startup_Apps.conf"
+  local startup_config="$HOME/.config/hypr/startup.conf"
 
   # Check if it's a live wallpaper (video)
   if [[ "$selected_file" =~ \.(mp4|mkv|mov|webm)$ ]]; then
@@ -168,7 +168,7 @@ apply_image_wallpaper() {
     awww-daemon --format xrgb &
   fi
 
-  awww img -o "$focused_monitor" "$image_path" $awww_PARAMS
+  awww img -o "$focused_monitor" $awww_PARAMS "$image_path"
 
   # Run additional scripts
   "$SCRIPTSDIR/Wallustawww.sh"
