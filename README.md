@@ -3,7 +3,7 @@ Hyprland dotfiles. Spun off [JaKoolIt](https://github.com/JaKooLit/Hyprland-Dots
 
 This is my current dots on Debian sid.
 
-Works on Hyprland 0.53+, as well as lower version if you tweak the config a bit
+Works on Hyprland 0.54+.
 
 ## Softwares
 - OS: Debian sid

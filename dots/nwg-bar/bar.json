@@ -6,7 +6,7 @@
   },
   {
     "label": "Logout",
-    "exec": "loginctl terminate-user $USER",
+    "exec": "hyprctl dispatch exit",
     "icon": "/usr/share/nwg-bar/images/system-log-out.svg"
   },
   {
