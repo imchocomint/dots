@@ -6,7 +6,7 @@
   },
   {
     "label": "Logout",
-    "exec": "logout",
+    "exec": "loginctl terminate-user $USER",
     "icon": "/usr/share/nwg-bar/images/system-log-out.svg"
   },
   {
