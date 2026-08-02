@@ -5,6 +5,9 @@ This is my current dots on Debian sid.
 
 Works on Hyprland 0.54+.
 
+## Install script
+soon!(tm)
+
 ## Softwares
 - OS: Debian sid
 - WM: Hyprland (see my other project, [Hyprbian](https://github.com/imchocomint/hyprplus))
@@ -16,11 +19,12 @@ Works on Hyprland 0.54+.
 - Notification manager: swaync
 - Other softwares: cava, yazi, awww, fcitx5, nm-applet, wl-clipboard, wallust, thunar, pulseaudio, cliphist, nwg-bar ... (tba)
 
-## Notes
-Readme are on rofi folder for better clarity since you won't understand a thing like I did.
+## Addon scripts
+Scripts are at /hypr/scripts/. Add or modify at your own wish.
 
-## Scripts
-Scripts are at /hypr/scripts/. 
+## Gallery
+![](https://files.catbox.moe/2evdvl.png)
+![](https://files.catbox.moe/v57kg6.png)
 
 ## License
 These dotfiles here are licensed under CC0 (Creative Commons Zero), which puts them to public domain status. Free to do whatever you want with them.
